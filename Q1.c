@@ -13,7 +13,6 @@ typedef struct pessoa {
 int main() {
     pessoa lista[NUM_PESSOAS];
     
-    // Leitura dos dados
     for (int i = 0; i < NUM_PESSOAS; i++) {
         printf("Insira os dados (%d):\n", i + 1);
         printf("Nome: ");
